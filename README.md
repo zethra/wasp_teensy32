@@ -1,4 +1,4 @@
-# Wasp
+# Wasp for Teensy 3.2
 ## A 3D printer firmware written in Rust
 
 ## Waring: WIP

@@ -3,13 +3,9 @@ name = "wasp_teensy32"
 version = "0.1.0"
 authors = ["Ben Goldberg <jediben97@gmail.com>", "Tim Hollabaugh <timothyhollabaugh@gmail.com>"]
 
-[lib]
-name = "wasp_teensy32"
-path = "src/lib.rs"
-
 [dependencies]
 teensy3 = "0.1.3"
-wasp = { path = "../wasp" }
+wasp_teensy32 = { path = "../waps" }
 
 [profile.dev]
 panic = "abort"
